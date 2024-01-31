@@ -34,7 +34,26 @@ Implement a generic thread pool, then use it to traverse a graph and compute the
 
 ### Statement
 
-For this assignment you will build a Bash-like shell with minimal functionalities like traversing the file system, running applications, redirecting their output or piping the output from one application into the input of another. The details of the functionalities that must be implemented will be further explained.
+For this assignment you will build a Bash-like shell with minimal functionalities like traversing the file system, running applications, redirecting their output or piping the output from one application into the input of another.
 
-### Implementation and its README can be found in ShellEase dir
+### Implementation and its README can be found in ServerHttp dir
+
+# Assignment 3: [async_web_server_http]
+
+## task
+
+### Objectives
+- make a web server that uses the following advanced I/O operations:
+- Asynchronous operations on files
+- Non-blocking operations on sockets
+- Zero-copying
+- Multiplexing I/O operations
+- The server implements a limited functionality of the HTTP protocol: passing files to clients.
+
+
+### Statement
+
+The web server will use the multiplexing API to wait for connections from clients - epoll. On the established connections, requests from clients will be received and then responses will be distributed to them.
+
+### Implementation and its README can be found in ServerHttp dir
 
